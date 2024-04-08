@@ -8,8 +8,11 @@ class Human():
 
 class Paladin(Human):
     def info(self):
+        print(f'Класс: Пладин')
         print(f'Здоровье: {self.health}')
         print(f'Мана: {self.mana}')
         print(f'Сила: {self.strength}')
         print(f'Ловкость: {self.dexterity}')
-        
+
+p = Paladin(500, 300, 170, 80)
+p.info()
