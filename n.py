@@ -14,5 +14,5 @@ class Paladin(Human):
         print(f'Сила: {self.strength}')
         print(f'Ловкость: {self.dexterity}')
 
-p = Paladin(500, 300, 170, 80)
+p = Paladin(500, 300, 170, 60)
 p.info()
